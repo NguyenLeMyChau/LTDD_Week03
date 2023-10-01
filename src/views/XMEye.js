@@ -74,6 +74,42 @@ export default function OneD(){
             <TouchableOpacity style={styles.btnLogin}>
               <Text style = {[styles.txtLogin,styles.setColorWhile]}>LOGIN</Text>
             </TouchableOpacity>
+
+            <View style = {{width: '330px', height: '25px', top: '170px',
+      left: '35px',}}>
+          <Text style = {{fontSize: '20px'}}>Register</Text>
+          <Text style = {{fontSize: '20px', alignSelf: 'flex-end', top: '-30px'}}>Forgot Password</Text>
+            </View>
+
+            <View style = {{width: '330px', height: '25px', top: '200px',
+      left: '35px',}}>
+              <Text style = {{fontSize: '20px', textAlign: 'center'}}>____Other Login Methods_____</Text>
+            </View>
+
+            <View style = {{width: '330px', height: '70px', top: '220px',
+      left: '35px'}}>
+                <Image
+                    source = {require('/src/images/group8.png')}
+                    style = {styles.imgGroup8}
+                />
+
+                <Image
+                    source = {require('/src/images/group9.png')}
+                    style = {styles.imgGroup9}
+                />
+
+                <Image
+                    source = {require('/src/images/rectangle19.png')}
+                    style = {styles.imgRe19}
+                />
+
+                <Image
+                    source = {require('/src/images/brandico_facebook.png')}
+                    style = {styles.imgFb}
+                />
+
+                
+            </View>
         
             
             
@@ -201,7 +237,36 @@ const styles = StyleSheet.create({
         padding: '17px, 14px, 17px, 14px',
         gap: '10px'
 
-    }
+    },
+
+    imgGroup8:{
+      width: '70px',
+      height: '70px'
+  },
+
+  imgGroup9:{
+    width: '70px',
+    height: '70px',
+    alignSelf: 'center',
+    top: '-70px'
+},
+
+  imgRe19:{
+    width: '70px',
+    height: '70px',
+    alignSelf: 'flex-end',
+    top: '-140px'
+  },
+
+  imgFb:{
+    width: '30px',
+    height: '45px',
+    alignSelf: 'flex-end',
+    top: '-195px',
+    right: '19px'    
+  },
+
+
 
   
 
